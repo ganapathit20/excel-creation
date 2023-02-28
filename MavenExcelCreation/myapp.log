@@ -1,0 +1,159 @@
+2023-02-22T11:59:56.308+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Starting SpringJpaApplication using Java 17.0.6 with PID 22472 (D:\Ganapathi\Java\Spring-data-jpa\target\classes started by ganapathit in D:\Ganapathi\Java\Spring-data-jpa)
+2023-02-22T11:59:56.309+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T11:59:56.513+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T11:59:56.529+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-02-22T11:59:56.627+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2023-02-22T11:59:56.629+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T11:59:56.629+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T11:59:56.654+05:30  INFO 22472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T11:59:56.655+05:30  INFO 22472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 342 ms
+2023-02-22T11:59:56.689+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-22T11:59:56.706+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cbe5975
+2023-02-22T11:59:56.706+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-22T11:59:56.707+05:30  INFO 22472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T11:59:56.710+05:30  WARN 22472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T11:59:56.717+05:30  INFO 22472 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-22T11:59:56.744+05:30  INFO 22472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T11:59:56.745+05:30  INFO 22472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T11:59:56.822+05:30  WARN 22472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T11:59:56.941+05:30  INFO 22472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T11:59:56.961+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2023-02-22T11:59:56.964+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Started SpringJpaApplication in 0.711 seconds (process running for 164.69)
+2023-02-22T11:59:56.968+05:30  INFO 22472 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-22T12:00:16.570+05:30  INFO 22472 --- [http-nio-7271-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T12:00:16.571+05:30  INFO 22472 --- [http-nio-7271-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T12:00:16.572+05:30  INFO 22472 --- [http-nio-7271-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T12:00:16.574+05:30  INFO 22472 --- [http-nio-7271-exec-2] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:00:27.533+05:30  INFO 22472 --- [http-nio-7271-exec-3] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:01:24.234+05:30  INFO 22472 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-22T12:01:24.253+05:30  INFO 22472 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T12:01:24.253+05:30  INFO 22472 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T12:01:24.259+05:30  INFO 22472 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:01:24.259+05:30  INFO 22472 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-22T12:01:24.267+05:30  INFO 22472 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-22T12:01:24.342+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Starting SpringJpaApplication using Java 17.0.6 with PID 22472 (D:\Ganapathi\Java\Spring-data-jpa\target\classes started by ganapathit in D:\Ganapathi\Java\Spring-data-jpa)
+2023-02-22T12:01:24.343+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T12:01:24.502+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T12:01:24.519+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-02-22T12:01:24.604+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2023-02-22T12:01:24.605+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T12:01:24.606+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T12:01:24.634+05:30  INFO 22472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T12:01:24.634+05:30  INFO 22472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 289 ms
+2023-02-22T12:01:24.670+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-22T12:01:24.685+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57219eec
+2023-02-22T12:01:24.686+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-22T12:01:24.687+05:30  INFO 22472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T12:01:24.690+05:30  WARN 22472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T12:01:24.694+05:30  INFO 22472 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-22T12:01:24.717+05:30  INFO 22472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T12:01:24.718+05:30  INFO 22472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:01:24.774+05:30  WARN 22472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T12:01:24.847+05:30  INFO 22472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T12:01:24.857+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2023-02-22T12:01:24.861+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Started SpringJpaApplication in 0.55 seconds (process running for 252.59)
+2023-02-22T12:01:24.864+05:30  INFO 22472 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-22T12:01:28.277+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T12:01:28.278+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T12:01:28.281+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-22T12:01:28.287+05:30  INFO 22472 --- [http-nio-7271-exec-1] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:01:42.688+05:30  INFO 22472 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-22T12:01:42.705+05:30  INFO 22472 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T12:01:42.705+05:30  INFO 22472 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T12:01:42.710+05:30  INFO 22472 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:01:42.711+05:30  INFO 22472 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-02-22T12:01:42.715+05:30  INFO 22472 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-02-22T12:01:42.790+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Starting SpringJpaApplication using Java 17.0.6 with PID 22472 (D:\Ganapathi\Java\Spring-data-jpa\target\classes started by ganapathit in D:\Ganapathi\Java\Spring-data-jpa)
+2023-02-22T12:01:42.790+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T12:01:42.943+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T12:01:42.958+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-02-22T12:01:43.026+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2023-02-22T12:01:43.026+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T12:01:43.027+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T12:01:43.047+05:30  INFO 22472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T12:01:43.047+05:30  INFO 22472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 253 ms
+2023-02-22T12:01:43.075+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-02-22T12:01:43.089+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6643f119
+2023-02-22T12:01:43.089+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-02-22T12:01:43.091+05:30  INFO 22472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T12:01:43.094+05:30  WARN 22472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T12:01:43.099+05:30  INFO 22472 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-22T12:01:43.121+05:30  INFO 22472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T12:01:43.123+05:30  INFO 22472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:01:43.180+05:30  WARN 22472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T12:01:43.242+05:30  INFO 22472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T12:01:43.254+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2023-02-22T12:01:43.257+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Started SpringJpaApplication in 0.495 seconds (process running for 270.987)
+2023-02-22T12:01:43.259+05:30  INFO 22472 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-22T12:01:47.382+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T12:01:47.383+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T12:01:47.385+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T12:01:47.390+05:30  INFO 22472 --- [http-nio-7271-exec-1] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:01:55.943+05:30  INFO 22472 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-22T12:01:55.953+05:30  INFO 22472 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T12:01:55.953+05:30  INFO 22472 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T12:01:55.958+05:30  INFO 22472 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:01:55.959+05:30  INFO 22472 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-02-22T12:01:55.963+05:30  INFO 22472 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-02-22T12:01:56.042+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Starting SpringJpaApplication using Java 17.0.6 with PID 22472 (D:\Ganapathi\Java\Spring-data-jpa\target\classes started by ganapathit in D:\Ganapathi\Java\Spring-data-jpa)
+2023-02-22T12:01:56.043+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T12:01:56.200+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T12:01:56.221+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-02-22T12:01:56.293+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2023-02-22T12:01:56.294+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T12:01:56.294+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T12:01:56.319+05:30  INFO 22472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T12:01:56.319+05:30  INFO 22472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 274 ms
+2023-02-22T12:01:56.346+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-02-22T12:01:56.358+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e804691
+2023-02-22T12:01:56.359+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-02-22T12:01:56.360+05:30  INFO 22472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T12:01:56.362+05:30  WARN 22472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T12:01:56.367+05:30  INFO 22472 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-22T12:01:56.389+05:30  INFO 22472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T12:01:56.389+05:30  INFO 22472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:01:56.444+05:30  WARN 22472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T12:01:56.519+05:30  INFO 22472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T12:01:56.530+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2023-02-22T12:01:56.536+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Started SpringJpaApplication in 0.523 seconds (process running for 284.265)
+2023-02-22T12:01:56.539+05:30  INFO 22472 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-22T12:02:01.009+05:30  INFO 22472 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-22T12:02:01.025+05:30  INFO 22472 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T12:02:01.031+05:30  INFO 22472 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:02:01.031+05:30  INFO 22472 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-02-22T12:02:01.039+05:30  INFO 22472 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-02-22T12:02:01.162+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Starting SpringJpaApplication using Java 17.0.6 with PID 22472 (D:\Ganapathi\Java\Spring-data-jpa\target\classes started by ganapathit in D:\Ganapathi\Java\Spring-data-jpa)
+2023-02-22T12:02:01.163+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-22T12:02:01.540+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-22T12:02:01.577+05:30  INFO 22472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-02-22T12:02:01.761+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2023-02-22T12:02:01.763+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-22T12:02:01.765+05:30  INFO 22472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-22T12:02:01.822+05:30  INFO 22472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-22T12:02:01.823+05:30  INFO 22472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 653 ms
+2023-02-22T12:02:01.877+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-02-22T12:02:01.897+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24732cc9
+2023-02-22T12:02:01.898+05:30  INFO 22472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-02-22T12:02:01.900+05:30  INFO 22472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-22T12:02:01.905+05:30  WARN 22472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-22T12:02:01.913+05:30  INFO 22472 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-22T12:02:01.963+05:30  INFO 22472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-22T12:02:01.964+05:30  INFO 22472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:02:02.100+05:30  WARN 22472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-22T12:02:02.247+05:30  INFO 22472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-22T12:02:02.264+05:30  INFO 22472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2023-02-22T12:02:02.270+05:30  INFO 22472 --- [restartedMain] com.exterro.SpringJpaApplication         : Started SpringJpaApplication in 1.169 seconds (process running for 290.0)
+2023-02-22T12:02:02.274+05:30  INFO 22472 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-22T12:02:02.450+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-22T12:02:02.451+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-22T12:02:02.452+05:30  INFO 22472 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-22T12:02:02.458+05:30  INFO 22472 --- [http-nio-7271-exec-1] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:02:03.526+05:30  INFO 22472 --- [http-nio-7271-exec-2] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:02:03.710+05:30  INFO 22472 --- [http-nio-7271-exec-3] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:02:03.853+05:30  INFO 22472 --- [http-nio-7271-exec-5] com.exterro.controller.MainController    : get all employee..
+2023-02-22T12:05:08.119+05:30  INFO 22472 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-22T12:05:08.135+05:30  INFO 22472 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-22T12:05:08.136+05:30  INFO 22472 --- [Thread-23] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-22T12:05:08.140+05:30  INFO 22472 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-22T12:05:08.141+05:30  INFO 22472 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-02-22T12:05:08.146+05:30  INFO 22472 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
